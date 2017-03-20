@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Lego Crafts</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link href="css/styles.css" rel="stylesheet">	
+		<script src="thirdparty/three/three.js"></script>
+	    <script src="thirdparty/three/Detector.js"></script>
+	    <script src="thirdparty/three/OrbitControls.js"></script>	
+	    <script src="thirdparty/three/TrackballControls.js"></script>
+	    <script src="js/legoCrafts.js"></script>
+	    <script src="js/boardController.js"></script>
+	    <script src="js/brickController.js"></script>
+	    <script src="https://cdn.socket.io/socket.io-1.4.8.js"></script>
+	</head>
+	<body>
+
+		<canvas id="c"></canvas>
+
+		<div id="content">
+		</div>
+
+		<script id="template" type="notjs">
+			<div class="scene"></div>
+			<div class="description">Scene $</div>
+		</script>
+		
+		<script src="js/legoMonitor.js"></script>
+
+	</body>
+</html>
